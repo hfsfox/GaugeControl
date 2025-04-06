@@ -87,7 +87,11 @@ class GaugeWindow : public BWindow
 // Main application class
 class SpeedometerApp : public BApplication {
 public:
-    SpeedometerApp() : BApplication("application/x-vnd.speedometer-app") {}
+    SpeedometerApp()
+    :
+    BApplication("application/x-vnd.hfsfox-gaugetestapp")
+    {
+    }
 
     void ReadyToRun() {
         // Create a window

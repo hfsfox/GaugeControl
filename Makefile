@@ -2,9 +2,13 @@ NAME = GaugeTest
 
 TYPE = APP
 
+APP_MIME_SIG = application/x-vnd.hfsfox-gaugetestapp
+
 SRCS = \
 	main.cpp \
 	CircleGaugeControl.cpp
+
+RDEFS = GaugeTest.rdef
 
 LIBS = $(STDCPPLIBS) be localestub
 
